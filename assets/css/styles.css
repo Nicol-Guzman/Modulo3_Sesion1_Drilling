@@ -1,0 +1,16 @@
+#mainBox {
+    border: 1px solid #424649;
+    box-shadow: 6px 6px 0px #FFCA2C;
+}
+
+#textLabel {
+    text-transform: uppercase;
+    font-size: xx-large;
+    font-weight: 600;
+    color: #424649;
+    text-shadow: 2px 2px 0px #FFCA2C;
+}
+
+#box p {
+    text-transform: uppercase;
+}

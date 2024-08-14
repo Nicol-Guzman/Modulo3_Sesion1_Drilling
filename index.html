@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>M3S2 - Area of a Circle</title>
+
+    <!-- ===== Styles ===== -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- ===== Page Content Start ===== -->
+    <section class="container p-4">
+        <div id="mainBox" class="row justify-content-center mt-5 pt-5 pb-5 bg-secondary-subtle rounded-2">
+            <form class="d-flex flex-column align-items-center m-auto">
+                <div id="textLabel" class="mb-3 text-center">
+                    <label for="circleRadius" class="form-label">Circle Radius</label>
+                    <input type="number" min="0" class="form-control mt-3" id="circleRadius" placeholder="Enter radius">
+                </div>
+                <div class="d-flex justify-content-center mt-3">
+                    <button type="button" id="calculate" class="btn btn-warning me-2">Calculate</button>
+                    <button type="reset" id="reset" class="btn btn-dark">Reset</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Result Box - Hidden on Load -->
+    <section class="container" id="resultBox">
+        <div class="row">
+            <div id="box" class="d-flex flex-column align-items-center m-auto mt-4 w-75 bg-warning text-dark text-center pt-3 pb-2 px-2">
+                <p id="result"></p>
+            </div>
+        </div>
+    </section>
+    <!-- ===== Page Content End ===== -->
+
+    <!-- ===== Scripts ===== -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/scripts.js"></script>
+</body>
+
+</html>
